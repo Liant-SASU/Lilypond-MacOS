@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E7C72FCA27BE59ED00A81770 /* Lilypond_MacOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C72FC927BE59ED00A81770 /* Lilypond_MacOSApp.swift */; };
+		E7C72FCC27BE59ED00A81770 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C72FCB27BE59ED00A81770 /* ContentView.swift */; };
+		E7C72FCE27BE59EE00A81770 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7C72FCD27BE59EE00A81770 /* Assets.xcassets */; };
+		E7C72FD127BE59EE00A81770 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7C72FD027BE59EE00A81770 /* Preview Assets.xcassets */; };
+		E7C72FD327BE59EE00A81770 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C72FD227BE59EE00A81770 /* Persistence.swift */; };
+		E7C72FD627BE59EE00A81770 /* Lilypond_MacOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E7C72FD427BE59EE00A81770 /* Lilypond_MacOS.xcdatamodeld */; };
+		E7C72FE127BE59EE00A81770 /* Lilypond_MacOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C72FE027BE59EE00A81770 /* Lilypond_MacOSTests.swift */; };
+		E7C72FEB27BE59EE00A81770 /* Lilypond_MacOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C72FEA27BE59EE00A81770 /* Lilypond_MacOSUITests.swift */; };
+		E7C72FED27BE59EE00A81770 /* Lilypond_MacOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C72FEC27BE59EE00A81770 /* Lilypond_MacOSUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E7C72FDD27BE59EE00A81770 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7C72FBE27BE59ED00A81770 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E7C72FC527BE59ED00A81770;
+			remoteInfo = "Lilypond MacOS";
+		};
+		E7C72FE727BE59EE00A81770 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7C72FBE27BE59ED00A81770 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E7C72FC527BE59ED00A81770;
+			remoteInfo = "Lilypond MacOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E7C72FC627BE59ED00A81770 /* Lilypond MacOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lilypond MacOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7C72FC927BE59ED00A81770 /* Lilypond_MacOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lilypond_MacOSApp.swift; sourceTree = "<group>"; };
+		E7C72FCB27BE59ED00A81770 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E7C72FCD27BE59EE00A81770 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E7C72FD027BE59EE00A81770 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E7C72FD227BE59EE00A81770 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		E7C72FD527BE59EE00A81770 /* Lilypond_MacOS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Lilypond_MacOS.xcdatamodel; sourceTree = "<group>"; };
+		E7C72FD727BE59EE00A81770 /* Lilypond_MacOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Lilypond_MacOS.entitlements; sourceTree = "<group>"; };
+		E7C72FDC27BE59EE00A81770 /* Lilypond MacOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lilypond MacOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7C72FE027BE59EE00A81770 /* Lilypond_MacOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lilypond_MacOSTests.swift; sourceTree = "<group>"; };
+		E7C72FE627BE59EE00A81770 /* Lilypond MacOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lilypond MacOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7C72FEA27BE59EE00A81770 /* Lilypond_MacOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lilypond_MacOSUITests.swift; sourceTree = "<group>"; };
+		E7C72FEC27BE59EE00A81770 /* Lilypond_MacOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lilypond_MacOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E7C72FC327BE59ED00A81770 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7C72FD927BE59EE00A81770 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7C72FE327BE59EE00A81770 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E7C72FBD27BE59ED00A81770 = {
+			isa = PBXGroup;
+			children = (
+				E7C72FC827BE59ED00A81770 /* Lilypond MacOS */,
+				E7C72FDF27BE59EE00A81770 /* Lilypond MacOSTests */,
+				E7C72FE927BE59EE00A81770 /* Lilypond MacOSUITests */,
+				E7C72FC727BE59ED00A81770 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E7C72FC727BE59ED00A81770 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E7C72FC627BE59ED00A81770 /* Lilypond MacOS.app */,
+				E7C72FDC27BE59EE00A81770 /* Lilypond MacOSTests.xctest */,
+				E7C72FE627BE59EE00A81770 /* Lilypond MacOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E7C72FC827BE59ED00A81770 /* Lilypond MacOS */ = {
+			isa = PBXGroup;
+			children = (
+				E7C72FC927BE59ED00A81770 /* Lilypond_MacOSApp.swift */,
+				E7C72FCB27BE59ED00A81770 /* ContentView.swift */,
+				E7C72FCD27BE59EE00A81770 /* Assets.xcassets */,
+				E7C72FD227BE59EE00A81770 /* Persistence.swift */,
+				E7C72FD727BE59EE00A81770 /* Lilypond_MacOS.entitlements */,
+				E7C72FD427BE59EE00A81770 /* Lilypond_MacOS.xcdatamodeld */,
+				E7C72FCF27BE59EE00A81770 /* Preview Content */,
+			);
+			path = "Lilypond MacOS";
+			sourceTree = "<group>";
+		};
+		E7C72FCF27BE59EE00A81770 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E7C72FD027BE59EE00A81770 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E7C72FDF27BE59EE00A81770 /* Lilypond MacOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				E7C72FE027BE59EE00A81770 /* Lilypond_MacOSTests.swift */,
+			);
+			path = "Lilypond MacOSTests";
+			sourceTree = "<group>";
+		};
+		E7C72FE927BE59EE00A81770 /* Lilypond MacOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E7C72FEA27BE59EE00A81770 /* Lilypond_MacOSUITests.swift */,
+				E7C72FEC27BE59EE00A81770 /* Lilypond_MacOSUITestsLaunchTests.swift */,
+			);
+			path = "Lilypond MacOSUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E7C72FC527BE59ED00A81770 /* Lilypond MacOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7C72FF027BE59EE00A81770 /* Build configuration list for PBXNativeTarget "Lilypond MacOS" */;
+			buildPhases = (
+				E7C72FC227BE59ED00A81770 /* Sources */,
+				E7C72FC327BE59ED00A81770 /* Frameworks */,
+				E7C72FC427BE59ED00A81770 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lilypond MacOS";
+			productName = "Lilypond MacOS";
+			productReference = E7C72FC627BE59ED00A81770 /* Lilypond MacOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E7C72FDB27BE59EE00A81770 /* Lilypond MacOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7C72FF327BE59EE00A81770 /* Build configuration list for PBXNativeTarget "Lilypond MacOSTests" */;
+			buildPhases = (
+				E7C72FD827BE59EE00A81770 /* Sources */,
+				E7C72FD927BE59EE00A81770 /* Frameworks */,
+				E7C72FDA27BE59EE00A81770 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E7C72FDE27BE59EE00A81770 /* PBXTargetDependency */,
+			);
+			name = "Lilypond MacOSTests";
+			productName = "Lilypond MacOSTests";
+			productReference = E7C72FDC27BE59EE00A81770 /* Lilypond MacOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E7C72FE527BE59EE00A81770 /* Lilypond MacOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7C72FF627BE59EE00A81770 /* Build configuration list for PBXNativeTarget "Lilypond MacOSUITests" */;
+			buildPhases = (
+				E7C72FE227BE59EE00A81770 /* Sources */,
+				E7C72FE327BE59EE00A81770 /* Frameworks */,
+				E7C72FE427BE59EE00A81770 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E7C72FE827BE59EE00A81770 /* PBXTargetDependency */,
+			);
+			name = "Lilypond MacOSUITests";
+			productName = "Lilypond MacOSUITests";
+			productReference = E7C72FE627BE59EE00A81770 /* Lilypond MacOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E7C72FBE27BE59ED00A81770 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					E7C72FC527BE59ED00A81770 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					E7C72FDB27BE59EE00A81770 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = E7C72FC527BE59ED00A81770;
+					};
+					E7C72FE527BE59EE00A81770 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = E7C72FC527BE59ED00A81770;
+					};
+				};
+			};
+			buildConfigurationList = E7C72FC127BE59ED00A81770 /* Build configuration list for PBXProject "Lilypond MacOS" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E7C72FBD27BE59ED00A81770;
+			productRefGroup = E7C72FC727BE59ED00A81770 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E7C72FC527BE59ED00A81770 /* Lilypond MacOS */,
+				E7C72FDB27BE59EE00A81770 /* Lilypond MacOSTests */,
+				E7C72FE527BE59EE00A81770 /* Lilypond MacOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E7C72FC427BE59ED00A81770 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7C72FD127BE59EE00A81770 /* Preview Assets.xcassets in Resources */,
+				E7C72FCE27BE59EE00A81770 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7C72FDA27BE59EE00A81770 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7C72FE427BE59EE00A81770 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E7C72FC227BE59ED00A81770 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7C72FD627BE59EE00A81770 /* Lilypond_MacOS.xcdatamodeld in Sources */,
+				E7C72FD327BE59EE00A81770 /* Persistence.swift in Sources */,
+				E7C72FCC27BE59ED00A81770 /* ContentView.swift in Sources */,
+				E7C72FCA27BE59ED00A81770 /* Lilypond_MacOSApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7C72FD827BE59EE00A81770 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7C72FE127BE59EE00A81770 /* Lilypond_MacOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7C72FE227BE59EE00A81770 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7C72FEB27BE59EE00A81770 /* Lilypond_MacOSUITests.swift in Sources */,
+				E7C72FED27BE59EE00A81770 /* Lilypond_MacOSUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E7C72FDE27BE59EE00A81770 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E7C72FC527BE59ED00A81770 /* Lilypond MacOS */;
+			targetProxy = E7C72FDD27BE59EE00A81770 /* PBXContainerItemProxy */;
+		};
+		E7C72FE827BE59EE00A81770 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E7C72FC527BE59ED00A81770 /* Lilypond MacOS */;
+			targetProxy = E7C72FE727BE59EE00A81770 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E7C72FEE27BE59EE00A81770 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E7C72FEF27BE59EE00A81770 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		E7C72FF127BE59EE00A81770 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Lilypond MacOS/Lilypond_MacOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Lilypond MacOS/Preview Content\"";
+				DEVELOPMENT_TEAM = 52CKFA8868;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.liant.opensource.Lilypond-MacOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E7C72FF227BE59EE00A81770 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Lilypond MacOS/Lilypond_MacOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Lilypond MacOS/Preview Content\"";
+				DEVELOPMENT_TEAM = 52CKFA8868;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.liant.opensource.Lilypond-MacOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		E7C72FF427BE59EE00A81770 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 52CKFA8868;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.liant.opensource.Lilypond-MacOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lilypond MacOS.app/Contents/MacOS/Lilypond MacOS";
+			};
+			name = Debug;
+		};
+		E7C72FF527BE59EE00A81770 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 52CKFA8868;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.liant.opensource.Lilypond-MacOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lilypond MacOS.app/Contents/MacOS/Lilypond MacOS";
+			};
+			name = Release;
+		};
+		E7C72FF727BE59EE00A81770 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 52CKFA8868;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.liant.opensource.Lilypond-MacOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Lilypond MacOS";
+			};
+			name = Debug;
+		};
+		E7C72FF827BE59EE00A81770 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 52CKFA8868;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.liant.opensource.Lilypond-MacOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Lilypond MacOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E7C72FC127BE59ED00A81770 /* Build configuration list for PBXProject "Lilypond MacOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7C72FEE27BE59EE00A81770 /* Debug */,
+				E7C72FEF27BE59EE00A81770 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7C72FF027BE59EE00A81770 /* Build configuration list for PBXNativeTarget "Lilypond MacOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7C72FF127BE59EE00A81770 /* Debug */,
+				E7C72FF227BE59EE00A81770 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7C72FF327BE59EE00A81770 /* Build configuration list for PBXNativeTarget "Lilypond MacOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7C72FF427BE59EE00A81770 /* Debug */,
+				E7C72FF527BE59EE00A81770 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7C72FF627BE59EE00A81770 /* Build configuration list for PBXNativeTarget "Lilypond MacOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7C72FF727BE59EE00A81770 /* Debug */,
+				E7C72FF827BE59EE00A81770 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E7C72FD427BE59EE00A81770 /* Lilypond_MacOS.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E7C72FD527BE59EE00A81770 /* Lilypond_MacOS.xcdatamodel */,
+			);
+			currentVersion = E7C72FD527BE59EE00A81770 /* Lilypond_MacOS.xcdatamodel */;
+			path = Lilypond_MacOS.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E7C72FBE27BE59ED00A81770 /* Project object */;
+}
